@@ -3,7 +3,7 @@ use v5.10.0;
 use Moose;
 use Method::Signatures;
 
-our $VERSION = '1.00'; # VERSION
+our $VERSION = '1.01'; # VERSION
 # ABSTRACT: Agent for reading tweets
 
 with 'Exobrain::Agent::Poll';
@@ -134,7 +134,7 @@ Exobrain::Agent::Twitter::Source - Agent for reading tweets
 
 =head1 VERSION
 
-version 1.00
+version 1.01
 
 =head1 DESCRIPTION
 

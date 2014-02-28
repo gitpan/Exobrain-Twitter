@@ -4,7 +4,7 @@ use Net::Twitter;
 use Method::Signatures;
 use Date::Manip::Date;
 
-our $VERSION = '1.00'; # VERSION
+our $VERSION = '1.01'; # VERSION
 # ABSTRACT: Provides common functions for twitter components
 
 with 'Exobrain::Agent';
@@ -59,7 +59,7 @@ Exobrain::Agent::Twitter - Provides common functions for twitter components
 
 =head1 VERSION
 
-version 1.00
+version 1.01
 
 =for Pod::Coverage component_name
 

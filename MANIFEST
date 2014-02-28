@@ -37,7 +37,6 @@ lib/Exobrain/Intent/Tweet.pm
 lib/Exobrain/Measurement/Tweet.pm
 lib/Exobrain/Twitter.pm
 lib/Exobrain/Types/Twitter.pm
-t/.exobrainrc
 t/author-critic.t
 t/intent_tweet.t
 t/load_services.t

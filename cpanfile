@@ -4,6 +4,7 @@ requires "Exobrain::Agent" => "0";
 requires "Exobrain::Agent::Poll" => "0";
 requires "Exobrain::Agent::Run" => "0";
 requires "Exobrain::Component" => "0";
+requires "Exobrain::Config" => "1.01";
 requires "Exobrain::Intent" => "0";
 requires "Exobrain::Measurement::Social" => "0";
 requires "Method::Signatures" => "0";

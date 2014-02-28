@@ -24,6 +24,7 @@ requires:
   Exobrain::Agent::Poll: 0
   Exobrain::Agent::Run: 0
   Exobrain::Component: 0
+  Exobrain::Config: 1.01
   Exobrain::Intent: 0
   Exobrain::Measurement::Social: 0
   Method::Signatures: 0
@@ -40,4 +41,4 @@ requires:
 resources:
   bugtracker: https://github.com/pjf/exobrain-twitter
   repository: git://github.com/pjf/exobrain-twitter
-version: 1.00
+version: 1.01

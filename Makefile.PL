@@ -29,6 +29,7 @@ my %WriteMakefileArgs = (
     "Exobrain::Agent::Poll" => 0,
     "Exobrain::Agent::Run" => 0,
     "Exobrain::Component" => 0,
+    "Exobrain::Config" => "1.01",
     "Exobrain::Intent" => 0,
     "Exobrain::Measurement::Social" => 0,
     "Method::Signatures" => 0,
@@ -49,7 +50,7 @@ my %WriteMakefileArgs = (
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.00",
+  "VERSION" => "1.01",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -63,6 +64,7 @@ my %FallbackPrereqs = (
   "Exobrain::Agent::Poll" => 0,
   "Exobrain::Agent::Run" => 0,
   "Exobrain::Component" => 0,
+  "Exobrain::Config" => "1.01",
   "Exobrain::Intent" => 0,
   "Exobrain::Measurement::Social" => 0,
   "Exobrain::Test" => 0,
