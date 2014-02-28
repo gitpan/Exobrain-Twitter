@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Exobrain::Twitter",
   "PREREQ_PM" => {
     "Date::Manip::Date" => 0,
-    "Exobrain" => "1.00",
+    "Exobrain" => "1.01",
     "Exobrain::Agent" => 0,
     "Exobrain::Agent::Poll" => 0,
     "Exobrain::Agent::Run" => 0,
@@ -44,13 +44,13 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Exobrain" => "1.00",
+    "Exobrain" => "1.01",
     "Exobrain::Test" => 0,
     "Test::Deep" => 0,
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.01",
+  "VERSION" => "1.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -59,7 +59,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Date::Manip::Date" => 0,
-  "Exobrain" => "1.00",
+  "Exobrain" => "1.01",
   "Exobrain::Agent" => 0,
   "Exobrain::Agent::Poll" => 0,
   "Exobrain::Agent::Run" => 0,

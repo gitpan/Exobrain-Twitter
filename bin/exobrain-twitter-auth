@@ -8,7 +8,7 @@ use Net::Twitter;
 
 # PODNAME: exobrain-twitter-auth
 # ABSTRACT: OAuth with twitter from the command-line
-our $VERSION = '1.01'; # VERSION
+our $VERSION = '1.02'; # VERSION
 
 
 # TODO: Make a generalised exobrain config sript that calls this.
@@ -80,7 +80,7 @@ exobrain-twitter-auth - OAuth with twitter from the command-line
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 SYNOPSIS
 

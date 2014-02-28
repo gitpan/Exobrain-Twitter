@@ -2,7 +2,7 @@ package Exobrain::Agent::Twitter::Response;
 use Moose;
 use Method::Signatures;
 
-our $VERSION = '1.01'; # VERSION
+our $VERSION = '1.02'; # VERSION
 # ABSTRACT: Spots respones bound for twitter, and sends them
 
 with 'Exobrain::Agent::Twitter';
@@ -39,7 +39,7 @@ Exobrain::Agent::Twitter::Response - Spots respones bound for twitter, and sends
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 AUTHOR
 

@@ -1,5 +1,5 @@
 requires "Date::Manip::Date" => "0";
-requires "Exobrain" => "1.00";
+requires "Exobrain" => "1.01";
 requires "Exobrain::Agent" => "0";
 requires "Exobrain::Agent::Poll" => "0";
 requires "Exobrain::Agent::Run" => "0";
@@ -20,7 +20,7 @@ requires "strict" => "0";
 requires "warnings" => "0";
 
 on 'test' => sub {
-  requires "Exobrain" => "1.00";
+  requires "Exobrain" => "1.01";
   requires "Exobrain::Test" => "0";
   requires "Test::Deep" => "0";
   requires "Test::Exception" => "0";

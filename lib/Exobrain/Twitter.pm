@@ -2,7 +2,7 @@ package Exobrain::Twitter;
 use Moose;
 
 # ABSTRACT: Twitter components for exobrain
-our $VERSION = '1.01'; # VERSION
+our $VERSION = '1.02'; # VERSION
 
 
 with 'Exobrain::Component';
@@ -33,7 +33,7 @@ Exobrain::Twitter - Twitter components for exobrain
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 SYNOPSIS
 

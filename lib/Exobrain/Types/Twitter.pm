@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 # ABSTRACT: Exobrain types for use in Twitter communications
-our $VERSION = '1.01'; # VERSION
+our $VERSION = '1.02'; # VERSION
 
 use MooseX::Types -declare => [qw(
     TweetStr
@@ -28,7 +28,7 @@ Exobrain::Types::Twitter - Exobrain types for use in Twitter communications
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 AUTHOR
 
