@@ -2,7 +2,7 @@ package Exobrain::Agent::Twitter::Sink;
 use Moose;
 use Method::Signatures;
 
-our $VERSION = '1.02'; # VERSION
+our $VERSION = '1.03'; # VERSION
 # ABSTRACT: Sink agent for exobrain/twitter
 
 with 'Exobrain::Agent::Twitter';
@@ -46,7 +46,7 @@ Exobrain::Agent::Twitter::Sink - Sink agent for exobrain/twitter
 
 =head1 VERSION
 
-version 1.02
+version 1.03
 
 =head1 AUTHOR
 

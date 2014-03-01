@@ -3,7 +3,7 @@ abstract: 'Twitter components for exobrain'
 author:
   - 'Paul Fenwick <pjf@cpan.org>'
 build_requires:
-  Exobrain: 1.01
+  Exobrain: 1.04
   Exobrain::Test: 0
   Test::Deep: 0
   Test::Exception: 0
@@ -19,7 +19,7 @@ meta-spec:
 name: Exobrain-Twitter
 requires:
   Date::Manip::Date: 0
-  Exobrain: 1.01
+  Exobrain: 1.04
   Exobrain::Agent: 0
   Exobrain::Agent::Poll: 0
   Exobrain::Agent::Run: 0
@@ -41,4 +41,4 @@ requires:
 resources:
   bugtracker: https://github.com/pjf/exobrain-twitter
   repository: git://github.com/pjf/exobrain-twitter
-version: 1.02
+version: 1.03

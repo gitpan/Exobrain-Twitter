@@ -8,7 +8,7 @@ use Net::Twitter;
 
 # PODNAME: exobrain-twitter-auth
 # ABSTRACT: OAuth with twitter from the command-line
-our $VERSION = '1.02'; # VERSION
+our $VERSION = '1.03'; # VERSION
 
 
 # TODO: Make a generalised exobrain config sript that calls this.
@@ -17,6 +17,8 @@ say "\n\nHey there, we'll need to start by getting an API key from twitter.\n";
 say "Head over to: https://apps.twitter.com/app/new\n";
 say "You need only fill in the required fields there.";
 say "Alternatively, if you already have a registered app, you can use that.";
+
+say "\n--> Your application MUST require read, write, and DM access <--\n";
 
 say "\nOnce done, you'll need to provide the API key and secret.";
 say "These are not shared with anyone.";
@@ -80,7 +82,7 @@ exobrain-twitter-auth - OAuth with twitter from the command-line
 
 =head1 VERSION
 
-version 1.02
+version 1.03
 
 =head1 SYNOPSIS
 

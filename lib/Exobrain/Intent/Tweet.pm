@@ -7,7 +7,7 @@ use Method::Signatures;
 use Exobrain::Types::Twitter qw( TweetStr );
 
 # ABSTRACT: Intent message for twitter
-our $VERSION = '1.02'; # VERSION
+our $VERSION = '1.03'; # VERSION
 
 method summary() { return $self->tweet; }
 
@@ -31,7 +31,7 @@ Exobrain::Intent::Tweet - Intent message for twitter
 
 =head1 VERSION
 
-version 1.02
+version 1.03
 
 =head1 AUTHOR
 

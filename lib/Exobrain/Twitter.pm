@@ -2,7 +2,7 @@ package Exobrain::Twitter;
 use Moose;
 
 # ABSTRACT: Twitter components for exobrain
-our $VERSION = '1.02'; # VERSION
+our $VERSION = '1.03'; # VERSION
 
 
 with 'Exobrain::Component';
@@ -23,6 +23,8 @@ sub services {
     )
 }
 
+1;
+
 __END__
 
 =pod
@@ -33,7 +35,7 @@ Exobrain::Twitter - Twitter components for exobrain
 
 =head1 VERSION
 
-version 1.02
+version 1.03
 
 =head1 SYNOPSIS
 
@@ -70,8 +72,6 @@ L<Exobrain::Measurement::Tweet> classes for sending and
 receiving tweets, respectively.
 
 =for Pod::Coverage component services
-
-1;
 
 =head1 AUTHOR
 
