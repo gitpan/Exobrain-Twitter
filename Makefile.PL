@@ -17,9 +17,7 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Exobrain-Twitter",
-  "EXE_FILES" => [
-    "bin/exobrain-twitter-auth"
-  ],
+  "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Exobrain::Twitter",
   "PREREQ_PM" => {
@@ -29,7 +27,7 @@ my %WriteMakefileArgs = (
     "Exobrain::Agent::Poll" => 0,
     "Exobrain::Agent::Run" => 0,
     "Exobrain::Component" => 0,
-    "Exobrain::Config" => "1.01",
+    "Exobrain::Config" => 0,
     "Exobrain::Intent" => 0,
     "Exobrain::Measurement::Social" => 0,
     "Method::Signatures" => 0,
@@ -40,6 +38,7 @@ my %WriteMakefileArgs = (
     "Net::Twitter" => 0,
     "autodie" => 0,
     "constant" => 0,
+    "feature" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -50,7 +49,7 @@ my %WriteMakefileArgs = (
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "1.03",
+  "VERSION" => "1.04",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -64,7 +63,7 @@ my %FallbackPrereqs = (
   "Exobrain::Agent::Poll" => 0,
   "Exobrain::Agent::Run" => 0,
   "Exobrain::Component" => 0,
-  "Exobrain::Config" => "1.01",
+  "Exobrain::Config" => 0,
   "Exobrain::Intent" => 0,
   "Exobrain::Measurement::Social" => 0,
   "Exobrain::Test" => 0,
@@ -79,6 +78,7 @@ my %FallbackPrereqs = (
   "Test::More" => 0,
   "autodie" => 0,
   "constant" => 0,
+  "feature" => 0,
   "strict" => 0,
   "warnings" => 0
 );

@@ -7,7 +7,6 @@ META.yml
 Makefile.PL
 README
 README.md
-bin/exobrain-twitter-auth
 cpanfile
 dist.ini
 lib/Exobrain/Agent/Twitter.pm
@@ -18,6 +17,7 @@ lib/Exobrain/Intent/Tweet.pm
 lib/Exobrain/Measurement/Tweet.pm
 lib/Exobrain/Twitter.pm
 lib/Exobrain/Types/Twitter.pm
+perlcritic.rc
 t/author-critic.t
 t/intent_tweet.t
 t/load_services.t
